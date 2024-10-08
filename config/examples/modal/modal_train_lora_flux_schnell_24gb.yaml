@@ -28,7 +28,7 @@ config:
         # on windows, escape back slashes with another backslash so
         # "C:\\path\\to\\images\\folder"
         # your dataset must be placed in /ai-toolkit and /root is for modal to find the dir:
-        - folder_path: "/root/ai-toolkit/your-dataset"
+        - folder_path: "/home/thuc/thuc/ustyle/dev/SimpleTuner/datasets/gato"
           caption_ext: "txt"
           caption_dropout_rate: 0.05  # will drop out the caption 5% of time
           shuffle_tokens: false  # shuffle caption order, split by commas

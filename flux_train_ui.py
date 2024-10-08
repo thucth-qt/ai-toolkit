@@ -255,7 +255,7 @@ save:
   dtype: float16
   hf_private: true
   max_step_saves_to_keep: 4
-  push_to_hub: true
+  push_to_hub: false
   save_every: 10000
 train:
   batch_size: 1
